@@ -2,10 +2,60 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Exemplo de Título H1</title>
+    <title>Estrutura HTML</title>
+    <style>
+        /* Adiciona borda ao redor do conteúdo */
+        body {
+            border: 2px solid black;
+            padding: 10px;
+            width: 300px;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+        /* Estilização básica dos elementos */
+        h1, h2, p, aside, footer, ul {
+            margin: 10px 0;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        a {
+            color: blue;
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1> Header <h1>
-    <p>Este é um parágrafo de texto abaixo do título principal.</p>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Header</h1>
+        <ul>
+            <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="#">Item 3</a></li>
+        </ul>
+    </header>
+
+    <!-- Seção principal -->
+    <section>
+        <h2>Section</h2>
+    </section>
+
+    <!-- Artigo com parágrafo -->
+    <article>
+        <h2>Article</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Donec</p>
+    </article>
+
+    <!-- Barra lateral -->
+    <aside>
+        <h2>Aside</h2>
+    </aside>
+
+    <!-- Rodapé -->
+    <footer>
+        <h2>Footer</h2>
+    </footer>
 </body>
 </html>
